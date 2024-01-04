@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first"
+    tools:context=".firstsem">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:paddingLeft="70dp"
+        android:text="@string/enter_mark_details"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded,RtlSymmetry,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="119dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="@string/enter_maths_grade"
+        tools:ignore="Autofill,VisualLintTextFieldSize,VisualLintBounds" />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:layout_below="@id/ed1"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:hint="@string/enter_ads_grade"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/ed2"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="@string/enter_python_grade"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/ed3"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="@string/enter_accounts_grade"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+    <EditText
+        android:id="@+id/ed5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/ed4"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:hint="@string/enter_rm_grade"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+    <EditText
+        android:id="@+id/ed6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed5"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/enter_oose_grade"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp"
+        android:background="#00000000"
+        android:text="@string/get_cgpa"
+        android:textSize="30sp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text=""
+        tools:ignore="RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/al"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="174dp"
+        android:ems="10"
+        android:hint="@string/ads"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+        tools:ignore="Autofill,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/pl"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="176dp"
+        android:ems="10"
+        android:hint="@string/py"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+        tools:ignore="Autofill,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/cl"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="174dp"
+        android:ems="10"
+        android:hint="@string/cl"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+        tools:ignore="Autofill,TouchTargetSizeCheck" />
+</RelativeLayout>
